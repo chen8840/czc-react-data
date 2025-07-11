@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "Node18",
+    "declaration": true, // 生成声明文件
+    "isolatedModules": true,
+    "declarationDir": "dist/types", // 声明文件输出目录
+    "outDir": "dist",
+    "rootDir": "src",
+    "esModuleInterop": true,
+    "strict": true,
+  },
+  "exclude": ["vite.config.mts"]
+}

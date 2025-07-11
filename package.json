@@ -1,0 +1,43 @@
+{
+  "name": "czc-react-data",
+  "version": "1.0.2",
+  "description": "",
+  "main": "czc-react-data.umd.js",
+  "module": "czc-react-data.es.js",
+  "types": "lib/main.d.ts",
+  "files": [
+    "lib",
+    "czc-react-data.es.js"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "vite build",
+    "lint": "eslint src --ext .ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0 <19.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@types/jest": "^29.5.14",
+    "@typescript-eslint/eslint-plugin": "^8.31.0",
+    "@typescript-eslint/parser": "^8.31.0",
+    "eslint": "^9.25.1",
+    "eslint-plugin-import": "^2.31.0",
+    "globals": "^16.0.0",
+    "jest": "^29.7.0",
+    "rollup-plugin-typescript2": "^0.36.0",
+    "ts-jest": "^29.3.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.31.0",
+    "vite-plugin-dts": "^4.5.3",
+    "vite-plugin-static-copy": "^3.0.0"
+  },
+  "dependencies": {
+    "rxjs": "^7.8.2",
+    "vite": "^6.3.3"
+  }
+}
