@@ -1,6 +1,6 @@
 {
   "name": "czc-react-data",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "czc-react-data.umd.js",
   "module": "czc-react-data.es.js",
@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "engines": {
-    "node": ">=18.0.0 <19.0.0"
+    "node": ">=18.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.25.1",
